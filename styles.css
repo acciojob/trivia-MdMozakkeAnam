@@ -1,6 +1,4 @@
-
-/* Your CSS Code here. */
- <style>
+<style>
         body {
             font-family: Arial, sans-serif;
             max-width: 800px;
@@ -40,21 +38,16 @@
             transform: scale(1.15);
             accent-color: #28a745;
         }
-        /* Fixed Quotation Styling - Exact Specifications */
-        .quote-container {
+        /* EXACT SPECIFICATION MATCH */
+        blockquote {
             max-width: 600px;
             margin: 10px 0;
             padding: 15px;
-            border-left: 8px solid #28a745;
+            border-left: 8px solid green;
             background-color: #f8fffe;
             font-weight: bold;
-        }
-        .quote-container blockquote {
-            margin: 0;
-            padding: 0;
-            font-size: 1.1em;
-            line-height: 1.5;
-            color: #2c5530;
+            margin-left: 0;
+            margin-right: 0;
         }
         .source {
             font-size: 0.9em;

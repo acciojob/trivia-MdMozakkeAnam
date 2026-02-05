@@ -1,5 +1,5 @@
 //your code here
- <script>
+  <script>
         function checkAnswer() {
             const selected = document.querySelector('input[name="capital"]:checked');
             if (selected && selected.value === 'new-delhi') {
