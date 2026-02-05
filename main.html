@@ -7,9 +7,31 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <div class="quiz-container">
+        <div class="question">What is the capital of India?</div>
+        
+        <form class="options">
+            <label>
+                <input type="radio" name="capital" value="new-delhi">
+                New Delhi
+            </label><br>
+            <label>
+                <input type="radio" name="capital" value="mumbai">
+                Mumbai
+            </label>
+        </form>
+
+        <div class="quote-container">
+            <blockquote>
+                "New Delhi is the capital of India and an administrative district of NCT Delhi."
+            </blockquote>
+            <div class="source">
+                <a href="https://en.wikipedia.org/wiki/New_Delhi" target="_blank">Wikipedia</a>
+            </div>
+        </div>
+
+        <button type="submit" class="submit-btn" onclick="checkAnswer()">Submit Answer</button>
+    </div>
 
 </body>
 
