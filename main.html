@@ -7,29 +7,30 @@
 </head>
 
 <body>
-   <div class="quiz-container">
-        <div class="question">What is the capital of India?</div>
+   <div class="question">
+        <div class="question-text">
+            What is the captial of India?
+        </div>
         
         <div class="options">
-            <label>
-                <input type="radio" name="capital" value="new-delhi">
-                New Delhi
-            </label>
-            <label>
-                <input type="radio" name="capital" value="mumbai">
-                Mumbai
+            <label class="option">
+                <input type="radio" name="capital" value="New Delhi" id="new-delhi">
+                <span>New Delhi</span>
+            </label><br>
+            
+            <label class="option">
+                <input type="radio" name="capital" value="Mumbai" id="mumbai">
+                <span>Mumbai</span>
             </label>
         </div>
-
-        <!-- DIRECT BLOCKQUOTE WITH EXACT REQUIRED STYLING -->
-        <blockquote>
-            "New Delhi is the capital of India and an administrative district of NCT Delhi."
-        </blockquote>
-        <div class="source">
-            Reference: <a href="https://en.wikipedia.org/wiki/New_Delhi" target="_blank">Wikipedia</a>
-        </div>
-
-        <button type="button" class="submit-btn" onclick="checkAnswer()">Submit Answer</button>
+    </div>
+    
+    <blockquote>
+        "New Delhi is the capital of India and an administrative district of NCT Delhi."
+    </blockquote>
+    
+    <div class="reference">
+        <a href="https://en.wikipedia.org/wiki/New_Delhi" target="_blank">Wikipedia</a>
     </div>
 </body>
 
