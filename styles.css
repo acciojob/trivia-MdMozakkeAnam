@@ -1,84 +1,19 @@
-body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 20px;
-            line-height: 1.6;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-        }
+/* Reset and base styles */
 
-        .question {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 25px;
-            border-radius: 15px;
-            margin-bottom: 30px;
-            backdrop-filter: blur(10px);
-        }
+/* Blockquote style (corrected from previous) */
+blockquote {
+    max-width: 600px;
+    margin: 30px 0;
+    padding: 20px 25px;
+    border-left: 6px solid #10b981;
+    background-color: #ecfdf5;
+    font-style: italic;
+    font-weight: 500;
+    color: #065f46;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 2px 4px rgba(16, 185, 129, 0.1);
+}
 
-        .question-text {
-            font-size: 1.4em;
-            margin-bottom: 20px;
-            font-weight: 600;
-            color: white;
-        }
+/* Reference link */
 
-        .options {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
 
-        .option {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            padding: 15px;
-            background: rgba(255, 255, 255, 0.15);
-            border-radius: 10px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            font-size: 1.1em;
-            color: white;
-        }
-
-        .option:hover {
-            background: rgba(255, 255, 255, 0.25);
-            transform: translateX(5px);
-        }
-
-        .option input[type="radio"] {
-            width: 20px;
-            height: 20px;
-            accent-color: #4ade80;
-        }
-
-        /* EXACT QUOTATION STYLING SPECIFICATIONS */
-        blockquote {
-            max-width: 600px;
-            margin: 10px auto;
-            padding: 15px;
-            border-left: 8px solid #10b981;
-            background-color: #f8fffe;
-            font-weight: bold;
-            color: #065f46;
-            font-style: italic;
-        }
-
-        .reference {
-            text-align: right;
-            font-size: 0.9em;
-            color: rgba(255, 255, 255, 0.8);
-            margin-top: 10px;
-        }
-
-        .reference a {
-            color: rgba(255, 255, 255, 0.9);
-            text-decoration: none;
-        }
-
-        @media (max-width: 768px) {
-            blockquote {
-                max-width: 100%;
-            }
-        }
